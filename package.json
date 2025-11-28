@@ -1,0 +1,18 @@
+{
+  "name": "@jvavscratch/decompiler",
+  "version": "0.1.0",
+  "description": "Jvavscratch decompiler module for converting Scratch projects to JavaScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@jvavscratch/core": "^1.0.3",
+    "@jvavscratch/utils": "^1.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
